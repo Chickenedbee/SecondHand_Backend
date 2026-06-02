@@ -13,8 +13,8 @@ def home():
 db_config = {
     'host': 'gateway01.ap-northeast-1.prod.aws.tidbcloud.com',
     'port': 4000,
-    'user': '2rCEeJ6hM6Nw2Et.root',      # 例如: 2rCEeJ6hM6Nw2Et.root
-    'password': 'gDJXX6kfzyvY3b4u',      # TiDB 產生的那串密碼
+    'user': '防止個資外洩.root',      # 例如: 2rCEeJ6hM6Nw2Et.root
+    'password': '防止個資外洩',      # TiDB 產生的那串密碼
     'database': 'SecondHandExchange',
     'ssl': {'ssl': {}}               # 這是關鍵！TiDB 雲端強制要求 SSL 加密
 }
